@@ -34,4 +34,5 @@ https://github.com/pokedori/galaxy_note_10_ca_releasing/blob/main/20240418_11261
 # 参考
 
 https://oiio.jp/entries/5394<br>
-https://pocyomkin1220.com/galaxy-carrier-aggregation/
+https://pocyomkin1220.com/galaxy-carrier-aggregation/<br>
+https://hchch.net/galaxy-lte-band-enable/

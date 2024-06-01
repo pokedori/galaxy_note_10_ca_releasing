@@ -16,6 +16,7 @@ https://cdmatool.net/Downloads/Products
 
 １．Android(note10+)の電話アプリで　*#0011#　を入力して、ca_disableであることを確認<br>
 ２．開発者モードでUSBデバッグにチェック<br>
+　　→必要に応じて：Diagモード（*#0808# > RNDIS + DM + MODEM )にする。
 ３．DFS QToolsを起動する、portタブで、androidに接続<br>
 ４．[Tools]→[File Explorer]を開く<br>
 ５．３番で開いたportを設定<br>

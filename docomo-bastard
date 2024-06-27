@@ -1,0 +1,82 @@
+Galaxy note20 でdocomoのアプリを削除する方法
+
+【事前準備】
+
+●Windows
+・ドライバをインストールする
+　https://developer.samsung.com/android-usb-driver
+
+・adb（platform-tools）のインストール
+　https://developer.android.com/tools/releases/platform-tools?hl=ja
+
+●Galaxy端末
+　・USBデバッグモードにする。
+　・デフォルト（MTP）にする
+　　　（\*#0808# > MTP）にする。
+　・USBで接続
+　・アプリ＞設定＞特別なアクセス　等で、変な権限がついているものは外す。（リモート操作等）
+
+●手順
+　・コマンドプロンプトを動かす
+　・platform-toolsフォルダまで移動
+　・アンドロイドへ接続する。
+
+デバイスの状態を確認
+adb devices
+　「device」になっていること
+
+再起動方法
+adb kill-server
+adb start-server
+adb devices
+
+接続方法
+adb -s {adb devicesで取得する端末ID} shell
+
+削除方法
+
+以下でdocomoアプリを取得
+pm list package | grep "docomo"
+
+以下で削除
+pm uninstall --user 0 com.nttdocomo.android.wipe
+pm uninstall --user 0 com.nttdocomo.android.devicehelp
+pm uninstall --user 0 jp.co.nttdocomo.bridgelauncher
+pm uninstall --user 0 com.nttdocomo.android.apnsw
+pm uninstall --user 0 jp.co.nttdocomo.carriermail
+pm uninstall --user 0 com.nttdocomo.android.remotelock
+pm uninstall --user 0 com.nttdocomo.android.msg
+pm uninstall --user 0 jp.co.nttdocomo.anshinmode
+pm uninstall --user 0 com.nttdocomo.android.schedulememo
+pm uninstall --user 0 com.nttdocomo.android.phonemotion
+pm uninstall --user 0 com.nttdocomo.android.mascot
+pm uninstall --user 0 com.nttdocomo.android.homezozo
+pm uninstall --user 0 jp.co.nttdocomo.lcsapp
+pm uninstall --user 0 com.nttdocomo.android.mymagazine
+pm uninstall --user 0 com.nttdocomo.android.networkservice
+pm uninstall --user 0 com.nttdocomo.android.cloudset
+pm uninstall --user 0 com.nttdocomo.android.databackup
+pm uninstall --user 0 com.nttdocomo.android.idmanager
+pm uninstall --user 0 com.nttdocomo.android.dmenu2
+pm uninstall --user 0 com.nttdocomo.android.anmane2
+pm uninstall --user 0 jp.co.nttdocomo.saigaiban
+pm uninstall --user 0 com.nttdocomo.android.felicaremotelock
+pm uninstall --user 0 com.nttdocomo.android.accountauthenticator
+pm uninstall --user 0 com.nttdocomo.android.overlay.dcmconfig
+pm uninstall --user 0 com.nttdocomo.android.docomoset
+pm uninstall --user 0 com.nttdocomo.android.pf.dcmippushaggregator
+pm uninstall --user 0 com.nttdocomo.android.initialization
+pm uninstall --user 0 com.nttdocomo.android.applicationmanager
+pm uninstall --user 0 com.nttdocomo.android.sdcardbackup
+pm uninstall --user 0 com.nttdocomo.android.store
+pm uninstall --user 0 com.nttdocomo.android.pf.dcmwappush
+pm uninstall --user 0 com.nttdocomo.android.applicationmanagersub
+
+
+ドコモ電話帳
+pm uninstall --user 0 com.android.contacts
+
+
+・参考リンク
+https://smhn.info/202207-remove-carrier-app-windows
+https://github.com/Aoi-Developer/remove-career-app

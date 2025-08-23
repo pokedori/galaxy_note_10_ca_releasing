@@ -56,3 +56,10 @@ https://hchch.net/galaxy-lte-band-enable/
 ５．３番で開いたportを設定<br>
 ６．[Read]で、androidの情報を取得<br>
 ７．8番と18番をtrue<br>
+※note20+では26 18 8 11をtrueにした。<br>
+
+
+## 手順3
+
+docomoをアンインストール<br>
+1.

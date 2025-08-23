@@ -62,4 +62,27 @@ https://hchch.net/galaxy-lte-band-enable/
 ## 手順3
 
 docomoをアンインストール<br>
-1.
+
+
+
+1.ツールをダウンロード<br>
+　https://developer.android.com/studio/releases/platform-tools<br>
+<br>
+２．コマンドラインでアンインストールした場所へ移動<br>
+<br>
+３．adb.exe shellで接続<br>
+　　→必要に応じて：Diagモード（\*#0808# > MTP )にする。<br>
+<br>
+４．docomoのパッケージを調べる<br>
+　　→pm list packages | grep docomo<br>
+５．削除<br>
+　　→pm uninstall --user 0 <パッケージ名><br>
+６．削除できないアプリ<br>
+　　→android上でデバイス管理アプリとして設定されているので、解除してから消す必要がある。<br>
+　　com.nttdocomo.android.wipe<br>
+　　com.nttdocomo.android.remotelock<br>
+７．Galaxyのカレンダー<br>
+　　pm uninstall --user 0 com.samsung.android.calendar<br>
+
+参考URL
+https://note.com/nekofuton/n/nae2421530dc1

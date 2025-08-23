@@ -11,6 +11,8 @@ https://developer.samsung.com/mobile/android-usb-driver.html
 ・DFS QToolsのインストール<br>
 https://cdmatool.net/Downloads/Products
 
+・URLが切れていたら
+https://drive.google.com/drive/folders/1m1d0R1orUk8Eq1UHFG-GGtExRgrFT0jj?usp=drive_link
 
 ## 手順
 

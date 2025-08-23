@@ -83,6 +83,9 @@ docomoをアンインストール<br>
 　　com.nttdocomo.android.remotelock<br>
 ７．Galaxyのカレンダー<br>
 　　pm uninstall --user 0 com.samsung.android.calendar<br>
+<br>
+８．ドコモのユーザー管理<br>
+　　pm uninstall --user 0 com.android.contacts<br>
 
 参考URL
 https://note.com/nekofuton/n/nae2421530dc1

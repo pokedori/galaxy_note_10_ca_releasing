@@ -88,5 +88,5 @@ docomoをアンインストール<br>
 ８．ドコモのユーザー管理<br>
 　　pm uninstall --user 0 com.android.contacts<br>
 
-参考URL
+参考URL<br>
 https://note.com/nekofuton/n/nae2421530dc1

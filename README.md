@@ -12,7 +12,7 @@ https://developer.samsung.com/mobile/android-usb-driver.html
 https://cdmatool.net/Downloads/Products
 
 ・URLが切れていたら
-https://drive.google.com/drive/folders/1m1d0R1orUk8Eq1UHFG-GGtExRgrFT0jj?usp=drive_link
+https://drive.google.com/drive/folders/1cqpqKyNEF4Qk0REtVC2WMQC_t2yOeYOW?usp=drive_link
 
 ## 手順
 

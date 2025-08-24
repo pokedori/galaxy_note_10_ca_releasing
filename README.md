@@ -73,7 +73,6 @@ docomoをアンインストール<br>
 <br>
 ３．adb.exe shellで接続<br>
 　　→必要に応じて：Diagモード（\*#0808# > MTP )にする。<br>
-<br>
 ４．docomoのパッケージを調べる<br>
 　　→pm list packages | grep docomo<br>
 ５．削除<br>
@@ -84,7 +83,6 @@ docomoをアンインストール<br>
 　　com.nttdocomo.android.remotelock<br>
 ７．Galaxyのカレンダー<br>
 　　pm uninstall --user 0 com.samsung.android.calendar<br>
-<br>
 ８．ドコモのユーザー管理<br>
 　　pm uninstall --user 0 com.android.contacts<br>
 

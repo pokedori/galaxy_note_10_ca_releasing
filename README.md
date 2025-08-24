@@ -67,6 +67,7 @@ docomoをアンインストール<br>
 
 1.ツールをダウンロード<br>
 　https://developer.android.com/studio/releases/platform-tools<br>
+　リンク切れならこちら：https://drive.google.com/file/d/1Qjgae7S5nH03jHc0TLVQyvOwGMNvlmBk/view?usp=drive_link<br>
 <br>
 ２．コマンドラインでアンインストールした場所へ移動<br>
 <br>

@@ -89,6 +89,8 @@ docomoをアンインストール<br>
 ・参考URL<br>
 https://note.com/nekofuton/n/nae2421530dc1
 <br>
+<br>
+
 ・Galaxy s22 ultraを削除する際のコマンド例<br>
 pm uninstall --user 0 com.nttdocomo.android.wipe<br>
 pm uninstall --user 0 com.nttdocomo.android.devicehelp<br>

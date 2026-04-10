@@ -88,3 +88,39 @@ docomoをアンインストール<br>
 
 参考URL<br>
 https://note.com/nekofuton/n/nae2421530dc1
+
+Galaxy [Galaxy s22 ultra.txt](https://github.com/user-attachments/files/26637649/Galaxy.s22.ultra.txt)
+
+
+Galaxy s22 ultraを削除する際のコマンド例
+pm uninstall --user 0 com.nttdocomo.android.wipe
+pm uninstall --user 0 com.nttdocomo.android.devicehelp
+pm uninstall --user 0 com.nttdocomo.android.anshinsecurity
+pm uninstall --user 0 com.nttdocomo.android.apnsw
+pm uninstall --user 0 jp.co.nttdocomo.carriermail
+pm uninstall --user 0 com.nttdocomo.android.remotelock
+pm uninstall --user 0 com.nttdocomo.android.msg
+pm uninstall --user 0 jp.co.nttdocomo.anshinmode
+pm uninstall --user 0 com.nttdocomo.android.schedulememo
+pm uninstall --user 0 com.nttdocomo.android.mascot
+pm uninstall --user 0 com.nttdocomo.android.homezozo
+pm uninstall --user 0 jp.co.nttdocomo.lcsapp
+pm uninstall --user 0 com.nttdocomo.android.mymagazine
+pm uninstall --user 0 com.nttdocomo.android.databackup
+pm uninstall --user 0 com.nttdocomo.android.idmanager
+pm uninstall --user 0 com.nttdocomo.android.dmenu2
+pm uninstall --user 0 com.nttdocomo.android.anmane2
+pm uninstall --user 0 jp.co.nttdocomo.saigaiban
+pm uninstall --user 0 com.nttdocomo.android.felicaremotelock
+pm uninstall --user 0 com.nttdocomo.android.docomoset
+pm uninstall --user 0 com.nttdocomo.android.pf.dcmippushaggregator
+pm uninstall --user 0 com.nttdocomo.android.initialization
+pm uninstall --user 0 com.nttdocomo.android.applicationmanager
+pm uninstall --user 0 com.nttdocomo.android.store
+pm uninstall --user 0 com.nttdocomo.android.applicationmanagersub
+
+pm uninstall --user 0 com.android.contacts
+pm uninstall --user 0 com.samsung.android.app.spage
+pm uninstall --user 0 com.microsoft.skydrive
+pm uninstall --user 0 com.google.android.apps.tachyon
+pm uninstall --user 0 com.samsung.android.calendar
